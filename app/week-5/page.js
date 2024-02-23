@@ -1,4 +1,4 @@
-import ItemList from "./Item-list"
+import ItemList from "./item-list"
 
 const page = () => {
   return (
