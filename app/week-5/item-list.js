@@ -1,7 +1,7 @@
 "use client";
 
 import items from './items.json'
-import Item from './Item'
+import Item from './item'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
