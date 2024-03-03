@@ -5,7 +5,7 @@ import NewItem from "./new-item"
 import itemsData from './items.json'
 import { useState } from 'react'
 
-const page = () => {
+const Page = () => {
     const [items, setItems] = useState(itemsData);
 
     const addItem = (item) => {
@@ -21,4 +21,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
