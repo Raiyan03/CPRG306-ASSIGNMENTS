@@ -9,6 +9,7 @@ export default function Home() {
         <Link href="week-4"><p className="text-xl mt-3" >Week 4</p></Link>
         <Link href="week-5"><p className="text-xl mt-3" >Week 5</p></Link>
         <Link href="week-6"><p className="text-xl mt-3" >Week 6</p></Link>
+        <Link href="week-7"><p className="text-xl mt-3" >Week 7</p></Link>
     </main>
   );
 }
