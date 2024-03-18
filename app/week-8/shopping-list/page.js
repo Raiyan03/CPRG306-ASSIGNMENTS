@@ -5,11 +5,11 @@ import { useRouter } from 'next/navigation';
 import { useUserAuth } from '../_utils/auth-context';
 import ShoppingList from './shopping-list';
 
-const Page = async () => {
+const Page = () => {
     const { user } =  useUserAuth();
     const router = useRouter();
 
-    await useEffect( () => {
+    useEffect( () => {
         if (!user) {
             router.push('/week-8');
         }
