@@ -7,17 +7,17 @@ const Page = () => {
     const { user, gitHubSignIn, firebaseSignOut } = useUserAuth();
 
     // SignIn and SignOut handlers
-    const handleSignIn = async () => {
+    const handleSignIn =  () => {
         try {
-            await gitHubSignIn();
+             gitHubSignIn();
         } catch (error) {
             console.error("Error signing in: ", error);
         }
     };
 
-    const handleSignOut = async () => {
+    const handleSignOut =  () => {
         try {
-            await firebaseSignOut();
+             firebaseSignOut();
         } catch (error) {
             console.error("Error signing out: ", error);
         }
