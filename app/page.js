@@ -11,6 +11,7 @@ export default function Home() {
         <Link href="week-6"><p className="text-xl mt-3" >Week 6</p></Link>
         <Link href="week-7"><p className="text-xl mt-3" >Week 7</p></Link>
         <Link href="week-8"><p className="text-xl mt-3" >Week 8</p></Link>
+        <Link href="week-10"><p className="text-xl mt-3" >Week 10</p></Link>
     </main>
   );
 }
